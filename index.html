@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Twitter Card UI</title>
+        <link rel="stylesheet" href="css.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="card">
+            <div class="topCard">
+                <img class="avatar" alt="avatar" src="img/avatar.jpg">
+            </div>
+            <div class="bottomCard">
+                <div class="numbers">
+                    <!-- <p class="tweets">777 </br> Tweets</p> -->
+                    <p><input class="btn" type="text" id="tweets" value="777"></br>Tweets</p>
+                    <p><input class="btn" type="text" id="followers" value="100500"></br>Followers</p>
+                    
+                </div>
+            
+                <input type="button" id="btn" value="Follow" class="on" onclick="toggleState(this)" />
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,104 @@
+* { font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 450px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width:320px;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px #c5c5c5;
+    
+}
+.topCard {
+    height: 200px;
+    background-image: url(img/hero.jpg);
+    background-repeat: no-repeat;
+    border: 1px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 8px solid #5cc0ff;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 8px solid #5cc0ff;
+    margin-bottom: -18%;
+}
+.bottomCard {
+    height: 200px;
+    background: #dde1e2;
+    border: 1px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.numbers {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.btn {
+    width: 90px;
+    color: #81878b;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    text-align: center;
+}
+p {
+    color: #81878b;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+}
+.follow {
+    height: 40px;
+    width: 110px;
+    color: white;
+    background: #2589cc;
+    text-transform: uppercase;
+    border: none;
+    Border-radius: 5px;
+}
+
+.on  { 
+    height: 40px;
+    width: 110px;
+    color: white;
+    background: #2589cc;
+    text-transform: uppercase;
+    border: none;
+    Border-radius: 5px; 
+}
+.off {
+    height: 40px;
+    width: 110px;
+    color: white;
+    background: green;
+    text-transform: uppercase;
+    border: none;
+    Border-radius: 5px;
+}
